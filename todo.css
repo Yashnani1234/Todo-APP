@@ -1,0 +1,122 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: pink;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    margin: 0px;
+    padding: 10px;
+    border: 0px;
+}
+
+.container {
+    background-image: url(background_img.jpg);
+    width: 100%;
+    height: 88vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-task {
+    display: grid;
+    gap: 5px;
+    max-width: 250px;
+    border: none;
+    font-size: 15px;
+    font-weight: 580;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+#task-input, #task-description {
+    padding: 5px;
+}
+
+#add-button {
+    background-color: rgb(30, 180, 0);
+    border: 0px;
+    padding: 5px;
+}
+
+#task-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #f31919;
+    width: 65vw;
+    margin: 5px 0px;
+    padding: 10px 5px;
+}
+
+#pending-tasks, #completed-tasks {
+    display: none;
+    background-color: white;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+h2 {
+    margin: 5px 0px;
+}
+
+#pending-list, #completed-list {
+    margin: 0px;
+}
+
+.title-text {
+    width: 20%;
+}
+
+.description-text {
+    width: 50%;
+    text-align: start;
+}
+
+.edit-button {
+    background-color: transparent;
+    border-radius: 2px;
+    border-width: 1px;
+    padding: 8px;
+}
+
+.delete-button{
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+}
+
+.complete-button {
+    border-radius: 2px;
+    padding: 8px;
+    border: 1px solid gray;
+}
+
+.completed-button { 
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 8px;
+}
